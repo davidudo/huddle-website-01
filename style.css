@@ -21,6 +21,10 @@
 
 }
 
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 /* === General Styling === */
 
@@ -191,6 +195,10 @@ main article img {
   background-color: var(--pale-blue);
   max-width: 1440px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .info-container-white {
@@ -483,8 +491,8 @@ footer .subscribe-section button {
   footer .newsletter-attribution {
     max-width: 12rem;
   }
-
+  
   footer .subscribe-section input {
-    min-width: 12rem;
+    min-width: 13rem;
   }
 }
