@@ -155,8 +155,8 @@ article p {
 }
 
 main article img {
-  width: 100%;
-  height: auto;
+  height: 27vh;
+  width: auto;
 }
 
 /* === Stats Section === */
@@ -187,9 +187,9 @@ main article img {
 /* === Info Section === */
 
 .info-container {
-  width: 100%;
   background-color: var(--pale-blue);
   max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -205,7 +205,7 @@ main article img {
   justify-content: space-between;
   padding: 6rem 3rem;
   flex-wrap: wrap;
-  gap: 5rem;
+  gap: 4rem;
 }
 
 .info-section section {
@@ -219,7 +219,7 @@ main article img {
 }
 
 .info-section img {
-  width: 22rem;
+  max-width: 20rem;
 }
 
 .bg-desktop-top-curve {
@@ -269,15 +269,6 @@ main article img {
 }
 
 /* === Footer Section === */
-
-.footer-curve {
-  max-width: 1440px;
-  margin-bottom: -5px;
-}
-
-.footer-curve img {
-  width: 100%;
-}
 
 footer {
   display: flex;
