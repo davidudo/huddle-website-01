@@ -122,12 +122,10 @@ main article {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  width: 100%;
   max-width: 53rem;
   padding: 0 2rem;
   text-align: center;
-  margin: auto 0;
+  margin: 7rem 0;
 }
 
 article p,
@@ -204,10 +202,10 @@ main article img {
 .info-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 6rem 3rem;
   flex-wrap: wrap;
-  gap: 4rem;
+  gap: 7rem;
 }
 
 .info-section section {
@@ -226,8 +224,9 @@ main article img {
 
 .bg-desktop-top-curve {
   max-width: 1440px;
-  margin-bottom: -5px;
+  margin-bottom: -7px;
   margin-top: 2rem;
+  
 }
 
 .bg-desktop-top-curve img {
@@ -272,16 +271,25 @@ main article img {
 
 /* === Footer Section === */
 
+.footer-curve {
+  margin: 0 auto -25px auto;
+  max-width: 1440px;
+}
+
+.footer-curve img {
+  width: 100%;
+}
+
 footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 5rem 3rem;
   max-width: 1440px;
   margin: 0 auto;
   background-color: var(--dark-cyan);
-  gap: 4rem;
+  gap: 7rem;
 }
 
 footer .contact-section {
@@ -406,6 +414,10 @@ footer .subscribe-section button {
   }
 
   /* === Hero Section === */
+  main article {
+    margin: 3rem 0;
+  }
+  
   article h1 {
     font-size: 2rem;
   }
