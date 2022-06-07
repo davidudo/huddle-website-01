@@ -21,6 +21,11 @@
 
 }
 
+body {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 /* === General Styling === */
 
 * {
@@ -43,9 +48,9 @@ a {
 }
 
 a:hover {
-   color: var(--pink);
-   text-decoration: underline;
- }
+  color: var(--pink);
+  text-decoration: underline;
+}
 
 main {
   display: flex;
@@ -56,7 +61,7 @@ main {
 button {
   cursor: pointer;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  
+
 }
 
 /* === Navigation === */
@@ -190,7 +195,6 @@ main article img {
   background-color: var(--pale-blue);
   max-width: 1440px;
   width: 100%;
-  margin: 0 auto;
 }
 
 .info-container-white {
@@ -226,7 +230,7 @@ main article img {
   max-width: 1440px;
   margin-bottom: -7px;
   margin-top: 2rem;
-  
+
 }
 
 .bg-desktop-top-curve img {
@@ -417,7 +421,7 @@ footer .subscribe-section button {
   main article {
     margin: 3rem 0;
   }
-  
+
   article h1 {
     font-size: 2rem;
   }
@@ -454,4 +458,37 @@ footer .subscribe-section button {
     width: 100%;
   }
 
+}
+
+@media only screen and (max-width: 375px) {
+
+  /* === Hero Section === */
+
+  article h1 {
+    font-size: 1.5rem;
+  }
+
+  article button {
+    padding: 1.2rem 3rem;
+  }
+
+  /* === Info Section === */
+
+  .info-section img {
+    max-width: 13rem;
+  }
+
+  /* === Footer Section === */
+
+  footer .contact-section {
+    max-width: 12rem;
+  }
+
+  footer .newsletter-attribution {
+    max-width: 12rem;
+  }
+
+  footer .subscribe-section input {
+    min-width: 12rem;
+  }
 }
